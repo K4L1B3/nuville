@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-areas: "1 1";
+    padding: 230px;
+    gap: 15px;
+}
+
+.container > div {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: -180px;
+}
+
+input {
+    margin-top: 5px;
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+    border: none;
+    box-shadow: 3px 5px 15px rgba(15, 15, 15, 0.274);
+    padding-left: 5px;
+    font-size: 20px;
+    outline-color: goldenrod;
+}
+
+button {
+    font-size: 2vh;
+    border-radius: 5px;
+    height: 50px;
+    width: 300px;
+    background-color: rgb(219, 138, 158);
+    color: white;
+    border: none;
+}
+
+.btn-save {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 19px
+}
+
+#crm {
+    text-decoration: none;
+    box-shadow: none;
+    font-size: 2vh;
+    margin-top: 10px;
+}
+
+.img {
+    max-width: 450px;
+    max-height: 270px;
+    margin-top: 10px;
+    margin-bottom: -140px;
+}
