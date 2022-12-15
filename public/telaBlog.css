@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .center {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+  }
+  
+  .center2 {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+  }
+  
+  html,
+  body {
+    height: 150%;
+  }
+  
+  header {
+    height: 200px;
+    padding: 30px 0;
+  }
+  
+  .logo {
+    width: 25%;
+    margin-top: -8%;
+    margin-left: -5%;
+  }
+  
+  .usuario {
+    position: absolute;
+    border-radius: 50%;
+    width: 72.93px;
+    height: 72.93px;
+    left: 550px;
+    top: 15.44px;
+  }
+  
+  .menu {
+    padding-top: 12px;
+    width: 76%;
+  }
+  
+  .menu a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 40px;
+  }
+  
+  .conteudo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+  }
+  
+  .pai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .texto {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 200px;
+  }
+  
+  .imagem {
+    border-radius: 15%;
+    margin-left: 50px;
+  }
+  
+  .form {
+      position: absolute;
+      border-radius: 40%;
+      width: 586px;
+      height: 40px;
+      left: 700px;
+      top: 38px;
+  }
+  
+  .form input, form button {
+      font-size: 1.2em;
+      border-radius: 0.2em;
+      padding: 0.2em;
+  }
+  
+  .form button {
+      cursor: pointer;
+      background: none;
+      color: black;
+  }
+  
+  .form button:hover {
+      background-color: whitesmoke;
+  }
+  
